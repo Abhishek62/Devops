@@ -1,0 +1,1846 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<</Length 2129>>
+stream
+0.57 w
+0 G
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 785.20 Td
+(Step 1  Docker installation ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 756.85 Td
+(1 apt update ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 728.50 Td
+(to get the update of all existing packages ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 700.16 Td
+(2 apt install apt-transport-https ca-certificates curl) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 671.81 Td
+(software-properties-common) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 643.46 Td
+(insall a few prerequisite packages which let apt use) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 615.12 Td
+(packages over HTTPS) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 586.77 Td
+(3 curl -fsSL) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 558.43 Td
+(https://download.docker.com/linux/ubuntu/gpg | sudo) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 530.08 Td
+(apt-key add -) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 501.73 Td
+(to  add the GPG key) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 473.39 Td
+(4. add-apt-repository "deb [arch=amd64]) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 445.04 Td
+(https://download.docker.com/linux/ubuntu focal stable") Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 416.69 Td
+(Add the Docker repository to APT) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 388.35 Td
+(5. apt update) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 360.00 Td
+( update the package database with the Docker packages) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 331.65 Td
+(from the newly added repo) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 303.31 Td
+(6. apt-cache policy docker-ce) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 274.96 Td
+(Making sure you are about to install from the Docker) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 246.61 Td
+(repo instead of the default Ubuntu repo) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 218.27 Td
+(7.  apt install docker-ce) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 189.92 Td
+(Install the Docker) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 161.58 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 133.23 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 104.88 Td
+(Step 2 Install Docker Compose) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 76.54 Td
+(1. curl -L "https://github.com/docker/compose/releases/d) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<</Length 2125>>
+stream
+0.57 w
+0 G
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 785.20 Td
+(ownload/1.26.0/docker-compose-$\(uname -s\)-$\(uname -m\)") Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 756.85 Td
+(-o /usr/local/bin/docker-compose) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 728.50 Td
+(to download Docker Compose and make this software) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 700.16 Td
+(globally accessible on your system as docker-compose) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 671.81 Td
+(2. docker-compose --version) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 643.46 Td
+(To check the docker-compose version) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 615.12 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 586.77 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 558.43 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 530.08 Td
+(Step 3 To Install WordPress With Docker Compose) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 501.73 Td
+(1. Defining the Web Server Configuration) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 473.39 Td
+( a. mkdir wordpress) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 445.04 Td
+(    create the directory here will be all the docker) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 416.69 Td
+(exicutables located) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 388.35 Td
+( b. mkdir -p /media/etc/nginx-conf) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 360.00 Td
+(  creating the directory for storing the configuration) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 331.65 Td
+(files ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 303.31 Td
+(  c. vim /media/etc/nginx-conf/nginx.conf) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 274.96 Td
+(    To edit the nginx.conf and give the server name,root) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 246.61 Td
+(directory) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 218.27 Td
+(server {) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 189.92 Td
+(        listen 80;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 161.58 Td
+(        listen [::]:80;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 133.23 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 104.88 Td
+(        server_name abhinandtest.com.com) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 76.54 Td
+(www.abhinandtest.com;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 48.19 Td
+() Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<</Length 2059>>
+stream
+0.57 w
+0 G
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 785.20 Td
+(        index index.php index.html index.htm;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 756.85 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 728.50 Td
+(        root /var/www/html;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 700.16 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 671.81 Td
+(        location ~ /.well-known/acme-challenge {) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 643.46 Td
+(                allow all;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 615.12 Td
+(                root /var/www/html;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 586.77 Td
+(        }) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 558.43 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 530.08 Td
+(        location / {) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 501.73 Td
+(                try_files $uri $uri/) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 473.39 Td
+(/index.php$is_args$args;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 445.04 Td
+(        }) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 416.69 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 388.35 Td
+(        location ~ \\.php$ {) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 360.00 Td
+(                try_files $uri =404;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 331.65 Td
+(                fastcgi_split_path_info) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 303.31 Td
+(^\(.+\\.php\)\(/.+\)$;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 274.96 Td
+(                fastcgi_pass wordpress:9000;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 246.61 Td
+(                fastcgi_index index.php;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 218.27 Td
+(                include fastcgi_params;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 189.92 Td
+(                fastcgi_param SCRIPT_FILENAME) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 161.58 Td
+($document_root$fastcgi_script_name;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 133.23 Td
+(                fastcgi_param PATH_INFO) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 104.88 Td
+($fastcgi_path_info;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 76.54 Td
+(        }) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 48.19 Td
+() Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<</Length 2149>>
+stream
+0.57 w
+0 G
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 785.20 Td
+(        location ~ /\\.ht {) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 756.85 Td
+(                deny all;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 728.50 Td
+(        }) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 700.16 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 671.81 Td
+(        location = /favicon.ico { ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 643.46 Td
+(                log_not_found off; access_log off; ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 615.12 Td
+(        }) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 586.77 Td
+(        location = /robots.txt { ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 558.43 Td
+(                log_not_found off; access_log off; allow) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 530.08 Td
+(all; ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 501.73 Td
+(        }) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 473.39 Td
+(        location ~* \\.\(css|gif|ico|jpeg|jpg|js|png\)$ {) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 445.04 Td
+(                expires max;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 416.69 Td
+(                log_not_found off;) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 388.35 Td
+(        }) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 360.00 Td
+(}") Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 331.65 Td
+( 2. Create the  enviornment variables) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 303.31 Td
+(   a. cd wordpress) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 274.96 Td
+(      change the directory to wordpress) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 246.61 Td
+(   b. vim .env ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 218.27 Td
+(    this is to store the MYSQL enviorment variables) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 189.92 Td
+("  MYSQL_ROOT_PASSWORD=your_root_password) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 161.58 Td
+(MYSQL_USER=your_wordpress_database_user) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 133.23 Td
+(MYSQL_PASSWORD=your_wordpress_database_password" ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 104.88 Td
+(  c. git init) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 76.54 Td
+(    this will initialise the wordpress directory to git ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 48.19 Td
+(d. vim .gitignore ) Tj
+ET
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 12 0 R
+>>
+endobj
+12 0 obj
+<</Length 2074>>
+stream
+0.57 w
+0 G
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 785.20 Td
+(   .env added to the gitignore file because the .env) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 756.85 Td
+(file will contain all the secret  details) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 728.50 Td
+( f. vim .dockerignore ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 700.16 Td
+(    to minimise the secrets in handling the Docker) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 671.81 Td
+(issues ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 643.46 Td
+( ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 615.12 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 586.77 Td
+(Step 4 Defining the docker-compose.yml) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 558.43 Td
+(1. vim docker-compose.yml) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 530.08 Td
+(this is to edit the docker-compose.yml file) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 501.73 Td
+(  a. now we have to add the configurations for the) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 473.39 Td
+(Database) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 445.04 Td
+(  "services:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 416.69 Td
+(  db:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 388.35 Td
+(    image: mysql:8.0) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 360.00 Td
+(    container_name: db) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 331.65 Td
+(    restart: unless-stopped) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 303.31 Td
+(    env_file: .env) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 274.96 Td
+(    environment:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 246.61 Td
+(      - MYSQL_DATABASE=wordpress) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 218.27 Td
+(    volumes: ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 189.92 Td
+(      - /media/database:/var/lib/mysql) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 161.58 Td
+(    command:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 133.23 Td
+('--default-authentication-plugin=mysql_native_password') Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 104.88 Td
+(    networks:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 76.54 Td
+(      - app-network") Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 48.19 Td
+(  b. now add the configurations for the wordpress) Tj
+ET
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 14 0 R
+>>
+endobj
+14 0 obj
+<</Length 2043>>
+stream
+0.57 w
+0 G
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 785.20 Td
+("   wordpress:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 756.85 Td
+(    depends_on:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 728.50 Td
+(      - db) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 700.16 Td
+(    build: ../wordpress/wordpress1/) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 671.81 Td
+(    image: php:7.4-fpm-alpine) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 643.46 Td
+(    container_name: wordpress) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 615.12 Td
+(    restart: unless-stopped) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 586.77 Td
+(     env_file: .env) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 558.43 Td
+(     environment:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 530.08 Td
+(      - WORDPRESS_DB_HOST=db:3306) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 501.73 Td
+(      - WORDPRESS_DB_USER=$MYSQL_USER) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 473.39 Td
+(      - WORDPRESS_DB_PASSWORD=$MYSQL_PASSWORD) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 445.04 Td
+(      - WORDPRESS_DB_NAME=wordpress) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 416.69 Td
+(     ports:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 388.35 Td
+(      - "9000:9000") Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 360.00 Td
+(    volumes:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 331.65 Td
+(      - wordpress:/var/www/html) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 303.31 Td
+(      - /media/database:/var/lib/mysql) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 274.96 Td
+(      - /media/wp:/var/www/html/wp-content) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 246.61 Td
+(    networks:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 218.27 Td
+(      - app-network) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 189.92 Td
+(") Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 161.58 Td
+( c now add the configurations for the nginx server) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 133.23 Td
+(  " webserver:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 104.88 Td
+(    depends_on:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 76.54 Td
+(      - wordpress) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 48.19 Td
+(    image: nginx:1.15.12-alpine) Tj
+ET
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 16 0 R
+>>
+endobj
+16 0 obj
+<</Length 1923>>
+stream
+0.57 w
+0 G
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 785.20 Td
+(    container_name: webserver) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 756.85 Td
+(    restart: unless-stopped) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 728.50 Td
+(    ports:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 700.16 Td
+(      - "80:80") Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 671.81 Td
+(    volumes:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 643.46 Td
+(      - wordpress:/var/www/html) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 615.12 Td
+(      - /media/etc/nginx-conf:/etc/nginx/conf.d) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 586.77 Td
+(    networks:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 558.43 Td
+(      - app-network"   ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 530.08 Td
+( d. add network and volume defenition) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 501.73 Td
+( "volumes:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 473.39 Td
+(  wordpress:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 445.04 Td
+(  dbdata:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 416.69 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 388.35 Td
+(networks:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 360.00 Td
+(  app-network:) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 331.65 Td
+(    driver: bridge  ") Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 303.31 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 274.96 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 246.61 Td
+(Step 5 Defining the Dockerfile ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 218.27 Td
+(1. cd  wordpress1) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 189.92 Td
+( 2.vim Dockerfile ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 161.58 Td
+( edit the dockerfile ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 133.23 Td
+( a. Install Git and do the Git clone step) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 104.88 Td
+("RUN apk --update add  git) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 76.54 Td
+(RUN mkdir -p /home/sampleTest \\) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 48.19 Td
+(           cd /home/sampleTest \\) Tj
+ET
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 18 0 R
+>>
+endobj
+18 0 obj
+<</Length 1522>>
+stream
+0.57 w
+0 G
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 785.20 Td
+(           git clone) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 756.85 Td
+(https://github.com/WordPress/WordPress.git") Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 728.50 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 700.16 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 671.81 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 643.46 Td
+(Step 8 edit the /etc/hosts file ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 615.12 Td
+(1. vim /etc/hosts) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 586.77 Td
+(this is to give the domain name ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 558.43 Td
+(127.0.0.1 abhinandtest.com) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 530.08 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 501.73 Td
+(Step 7 Run The docker Compose file ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 473.39 Td
+(1. docker-compose up -d ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 445.04 Td
+( ) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 416.69 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 388.35 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 360.00 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 331.65 Td
+() Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 303.31 Td
+(Refference :) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 274.96 Td
+(Digital ocean) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 246.61 Td
+(HowtoForge) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 218.27 Td
+(Medium) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 189.92 Td
+(Docker hub) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 161.58 Td
+(Git-hub) Tj
+ET
+BT
+/F5 16 Tf
+18.40 TL
+0 g
+28.35 133.23 Td
+() Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R ]
+/Count 8
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+23 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+25 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+26 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+27 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+28 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+29 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+30 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+31 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+32 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+33 0 obj
+<<
+/Type /Font
+/BaseFont /PTSans.ttf
+/Subtype /Type1
+/Encoding /MacRomanEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 19 0 R
+/F2 20 0 R
+/F3 21 0 R
+/F4 22 0 R
+/F5 23 0 R
+/F6 24 0 R
+/F7 25 0 R
+/F8 26 0 R
+/F9 27 0 R
+/F10 28 0 R
+/F11 29 0 R
+/F12 30 0 R
+/F13 31 0 R
+/F14 32 0 R
+/F15 33 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+34 0 obj
+<<
+/Producer (jsPDF 0.0.0)
+/CreationDate (D:20200920121036+05'30')
+>>
+endobj
+35 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 36
+0000000000 65535 f 
+0000017325 00000 n 
+0000019321 00000 n 
+0000000015 00000 n 
+0000000124 00000 n 
+0000002303 00000 n 
+0000002412 00000 n 
+0000004587 00000 n 
+0000004696 00000 n 
+0000006805 00000 n 
+0000006915 00000 n 
+0000009115 00000 n 
+0000009226 00000 n 
+0000011351 00000 n 
+0000011462 00000 n 
+0000013556 00000 n 
+0000013667 00000 n 
+0000015641 00000 n 
+0000015752 00000 n 
+0000017428 00000 n 
+0000017554 00000 n 
+0000017685 00000 n 
+0000017819 00000 n 
+0000017957 00000 n 
+0000018081 00000 n 
+0000018210 00000 n 
+0000018342 00000 n 
+0000018478 00000 n 
+0000018606 00000 n 
+0000018733 00000 n 
+0000018862 00000 n 
+0000018995 00000 n 
+0000019097 00000 n 
+0000019193 00000 n 
+0000019586 00000 n 
+0000019672 00000 n 
+trailer
+<<
+/Size 36
+/Root 35 0 R
+/Info 34 0 R
+/ID [ <98C44C369A33997790CEB4970C0B8AAB> <98C44C369A33997790CEB4970C0B8AAB> ]
+>>
+startxref
+19776
+%%EOF
